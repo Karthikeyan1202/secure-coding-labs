@@ -1,0 +1,7 @@
+Notes extracted from PDF (Buffer_Overflows.pdf):
+- Avoid unsafe functions like gets(), strcpy(), strcat() without bounds checking.
+- Prefer safer alternatives: fgets(), strncpy/strncat with careful null-termination, or C++ std::string.
+- Always check argc/argv lengths before copying into fixed buffers.
+- Allocate space for the null terminator (+1).
+- Validate input lengths and use explicit bounds checks.
+- When possible, use higher-level safe types (std::string) to avoid manual buffer management.

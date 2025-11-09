@@ -1,0 +1,22 @@
+#include <cstdlib>
+#include <cstdio>
+#include <cstring>
+
+enum { MAX_ALLOCATION = 1000 };
+
+int main(int argc, const char *argv[]) {
+    char *c_str = NULL;
+    if (argc == 2) {
+        size_t len = std::strlen(argv[1]) + 1;
+        if (len > MAX_ALLOCATION) return EXIT_FAILURE;
+        c_str = (char *)malloc(len);
+        if (c_str == NULL) return EXIT_FAILURE;
+        std::strcpy(c_str, argv[1]);
+        std::printf("Copied string: %s\n", c_str);
+    } else {
+        c_str = (char *)"usage: $>a.exe [string]"; /* static literal assigned to pointer */
+        std::printf("%s\n", c_str);
+    }
+    free(c_str); /* ERROR: free() on non-malloc'd memory when argc != 2 */
+    return 0;
+}
