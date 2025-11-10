@@ -15,15 +15,8 @@
 # Secure Coding Labs
 
 **Secure Coding Labs** is a hands-on repository of concise C programs that demonstrate common software vulnerabilities and their secure fixes.  
-This collection is intended for M.Tech Cybersecurity coursework under **Dr. Praveen K** and focuses on practical, reproducible lab exercises: exploit, observe, and fix.
+This collection is intended for M.Tech Cybersecurity coursework  and focuses on practical, reproducible lab exercises: exploit, observe, and fix.
 
----
-
-## What you get
-- Minimal, focused examples: `vulnerable.c` vs `secure.c` for each lab.  
-- Makefiles to build, run, and analyze each lab.  
-- Guided README for each lab: step-by-step exploit + fix notes.  
-- Tool-friendly: Valgrind, Helgrind, GCC sanitizers, Frama-C workflows included.
 
 ---
 
