@@ -1,5 +1,6 @@
 <!-- README.md -->
 <div align="center">
+<br/>
   
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,18,30&height=180&section=header&text=Secure%20Coding%20Labs&fontSize=42&fontAlignY=38&animation=fadeIn&fontColor=ffffff" alt="Header Wave"/>
 
@@ -14,11 +15,8 @@
 <img src="https://img.shields.io/badge/Course-M.Tech%20Cybersecurity-orange?style=for-the-badge&logo=graduation-cap" alt="M.Tech"/>
 <img src="https://img.shields.io/badge/Instructor-Dr.%20Praveen%20K-brightgreen?style=for-the-badge&logo=chalkboard-teacher" alt="Instructor"/>
 
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,18,30&height=180&section=header&text=Secure%20Coding%20Labs&fontSize=42&fontAlignY=38&animation=fadeIn&fontColor=ffffff" alt="Header Wave"/>
-
 <br/>
+
 
 
 
