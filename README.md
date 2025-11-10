@@ -47,6 +47,6 @@ Each lab folder contains:
 - `vulnerable.c` — intentionally insecure code
 - `secure.c` — fixed version with explanations
 - `Makefile` — quick build & analysis targets
-- `README.md` — step-by-step exploit, analysis, and remediation guide
+
 
 ---
